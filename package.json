@@ -1,0 +1,19 @@
+{
+    "name": "x-heart",
+    "version": "1.0.0",
+    "description": "Web Component build with Polymer to display Heart",
+    "author": ": Mateus Ortiz",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mateusortiz/x-heart"
+    },
+    "bugs": {
+        "url": "https://github.com/webcomponents/x-heart/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-connect": "~0.5.0",
+        "grunt-cli": "~0.1.9"
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>&lt;x-heart&gt;</title>
+
+    <!-- Importing Web Component's Polyfill -->
+    <script src="platform/platform.js"></script>
+
+    <!-- Importing Custom Elements -->
+    <link rel="import" href="src/x-heart.html">
+</head>
+<body>
+
+    <!-- Using Custom Elements -->
+    <x-heart sound="on"></x-heart>
+
+    <audio id="heart-audio" loop>
+      <source src="assets/heart-sound.mp3" type="audio/mp3"></source>
+      <source src="assets/heart-sound.ogg" type="audio/ogg"></source>
+    </audio>
+
+</body>
+</html>
