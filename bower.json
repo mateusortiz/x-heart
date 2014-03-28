@@ -1,6 +1,21 @@
 {
-  "name": "package",
-  "version": "0.0.0",
-  "dependencies": {}
+  "name": "x-heart",
+  "version": "1.0.0",
+  "dependencies": {
+    "polymer": "~0.2.1"
+  },
+  "homepage": "https://github.com/mateusortiz/x-heart",
+  "authors": [
+    "Mateus Ortiz <mateus.prado@ig.com.br>"
+  ],
+  "description": "Web Component build with Polymer to display Heart",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./",
+    "test",
+    "tests"
+  ]
 }
-
