@@ -9,6 +9,11 @@
     "Mateus Ortiz <mateus.prado@ig.com.br>"
   ],
   "description": "Web Component build with Polymer to display Heart",
+  "keywords": [
+    "heart",
+    "web-components",
+    "polymer"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
