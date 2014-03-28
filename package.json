@@ -9,7 +9,7 @@
         "url": "https://github.com/mateusortiz/x-heart"
     },
     "bugs": {
-        "url": "https://github.com/webcomponents/x-heart/issues"
+        "url": "https://github.com/mateusortiz/x-heart/issues"
     },
     "devDependencies": {
         "grunt": "~0.4.1",
