@@ -1,26 +1,20 @@
 {
-  "name": "x-heart",
-  "version": "1.0.0",
-  "dependencies": {
-    "polymer": "~0.2.1"
-  },
-  "homepage": "https://github.com/mateusortiz/x-heart",
-  "authors": [
-    "Mateus Ortiz <mateus.prado@ig.com.br>"
-  ],
-  "description": "Web Component build with Polymer to display Heart",
-  "keywords": [
-    "heart",
-    "web-components",
-    "polymer"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "./",
-    "test",
-    "tests"
-  ]
+    "name": "x-heart",
+    "version": "1.0.0",
+    "description": "Web Component build with Polymer to display Heart",
+    "license": "MIT",
+    "main": "src/x-heart.html",
+    "keywords": [
+        "web-components",
+        "polymer"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.5.1"
+    }
 }
+
