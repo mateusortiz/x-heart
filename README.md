@@ -13,7 +13,7 @@ Web Component build with [Polymer](http://polymer-project.org) to display Heart
 Install with [Bower](http://bower.io/):
 
 ```sh
-$ bower install --save x-heart
+$ bower install x-heart --save
 ``` 
 
 ## Usage
@@ -21,8 +21,7 @@ $ bower install --save x-heart
 1. Import Web Components' polyfill:
 
     ```html
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     ```
 
 2. Import Custom Element:
