@@ -1,7 +1,7 @@
 <!-- Import Polymer -->
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<polymer-element name="x-heart" attributes="sound">
+<dom-module id="x-heart">
 
     <template>
         <div id="bg"></div>
@@ -92,7 +92,18 @@
     </template>
 
     <script>
-        Polymer('x-heart', {
+        Polymer({
+
+          is: 'x-heart',
+
+          properties: {
+            sound: {
+              type: String,
+              value: 'on'
+            }
+          },
+
+
           created: function() {
             var sound = this.getAttribute('sound');
 
@@ -106,4 +117,4 @@
         });
     </script>
 
-</polymer-element>
+</dom-module>
