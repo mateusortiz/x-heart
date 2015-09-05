@@ -1,6 +1,6 @@
 {
     "name": "x-heart",
-    "version": "1.0.0",
+    "version": "1.5.0",
     "description": "Web Component build with Polymer to display Heart",
     "license": "MIT",
     "main": "src/x-heart.html",
