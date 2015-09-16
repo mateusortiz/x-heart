@@ -14,7 +14,7 @@ Install with [Bower](http://bower.io/):
 
 ```sh
 $ bower install x-heart --save
-``` 
+```
 
 ## Usage
 
@@ -69,4 +69,4 @@ In order to run it locally you'll need a basic server setup.
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://mateusortiz.mit-license.org/) © Mateus Ortiz
